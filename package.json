@@ -1,0 +1,28 @@
+{
+  "name": "blog_",
+  "version": "1.0.0",
+  "description": "A simple RestFul API in node.js express sequelize MySql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GolgothaAksanti/blog_.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GolgothaAksanti/blog_/issues"
+  },
+  "homepage": "https://github.com/GolgothaAksanti/blog_#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5",
+    "sequelize-cli": "^6.2.0"
+  }
+}
